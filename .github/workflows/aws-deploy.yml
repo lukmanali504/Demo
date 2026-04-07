@@ -2,7 +2,7 @@ name: AWS Secure Deployment via OIDC
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   workflow_dispatch:
 
 # Security Best Practice: Explicit permissions for the workflow
